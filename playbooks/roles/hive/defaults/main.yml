@@ -11,7 +11,7 @@
 # Defaults for role hive
 # 
 
-HIVE_VERSION: 2.3.2
+HIVE_VERSION: 2.1.1
 # This should match the value for SQOOP_MYSQL_CONNECTOR_VERSION in sqoop role.
 HIVE_MYSQL_CONNECTOR_VERSION: 5.1.29
 HIVE_HOME: "{{ HADOOP_COMMON_USER_HOME }}/hive"
